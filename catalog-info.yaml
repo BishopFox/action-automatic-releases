@@ -1,0 +1,13 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: action-automatic-releases
+  description: Deprecated - use the BishopFox/action-gh-release action instead
+  tags:
+    - action-fork
+    - language:javascript
+spec:
+  type: action
+  lifecycle: deprecated
+  owner: group:consultingengineering
